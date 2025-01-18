@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app-container {
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  width: 400px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  background-color: #e3f2fd;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.input-container input {
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+  margin: 0 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button-container {
+  background-color: #e8f5e9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #c8e6c9;
+}
+
+.result-container {
+  background-color: #ffebee;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.result-container label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.result-container input {
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+}
